@@ -18,8 +18,8 @@ import retrofit.RestAdapter;
 public class LoginApplication extends Application {
 
     public static final String API_ENDPOINT = "http://mobil2014.herokuapp.com/api";
-    public static final String CLIENT_ID = "REST-INTEGRATION-EXAMPLE-APP";
-    public static final String CLIENT_SECRET = "supersecret123";
+    public static final String CLIENT_ID = "CLIENT_ID";
+    public static final String CLIENT_SECRET = "CLIENT_SECRET";
 
     private LoginService loginService;
 

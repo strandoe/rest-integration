@@ -6,8 +6,6 @@ import android.util.Log;
 import android.widget.TextView;
 
 import com.oysteinstrand.androidrest.events.LoadUserEvent;
-import com.oysteinstrand.androidrest.events.UserLoadedEvent;
-import com.oysteinstrand.androidrest.R;
 import com.squareup.otto.Subscribe;
 
 public class UserActivity extends BaseActivity {
@@ -16,7 +14,6 @@ public class UserActivity extends BaseActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user);
-//        checkLogin();
     }
 
 
@@ -34,10 +31,6 @@ public class UserActivity extends BaseActivity {
         }
     }
 
-    @Subscribe
-    public void onUserLoaded(UserLoadedEvent event) {
-        Log.d(UserActivity.class.getSimpleName(), "User should be loaded. Username = " + event.user.username);
-        TextView tvUsername = (TextView) findViewById(R.id.username);
-        tvUsername.setText(event.user.username);
-    }
+    // Subscribe to an event for user loaded and update the textview
+
 }
