@@ -23,3 +23,7 @@ local.properties
 proguard/
 
 .DS_Store
+
+.idea
+
+workspace.xml
