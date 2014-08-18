@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6B3453FE-B540-4688-94D0-CC0252BB7351</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iOSRest</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>69A0B965AF5210AEA43664602AE43092D0112AAD</key>
+		<string>github.com:strandoe/rest-integration.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOSRest/iOSRest.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>69A0B965AF5210AEA43664602AE43092D0112AAD</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:strandoe/rest-integration.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>69A0B965AF5210AEA43664602AE43092D0112AAD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>69A0B965AF5210AEA43664602AE43092D0112AAD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>rest-integration</string>
+		</dict>
+	</array>
+</dict>
+</plist>
